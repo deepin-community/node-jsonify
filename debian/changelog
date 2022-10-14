@@ -1,0 +1,12 @@
+node-jsonify (0.0.0-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Sun, 27 Dec 2020 17:26:06 +0100
+
+node-jsonify (0.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #845974)
+
+ -- Pirate Praveen <praveen@debian.org>  Sun, 27 Nov 2016 17:15:42 +0530
