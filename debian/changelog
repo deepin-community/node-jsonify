@@ -1,9 +1,36 @@
-node-jsonify (0.0.0-1.1) unstable; urgency=medium
+node-jsonify (0.0.1-1) unstable; urgency=medium
 
-  * Non maintainer upload by the Reproducible Builds team.
-  * No source change upload to rebuild on buildd with .buildinfo files.
+  * Team upload
+  * New upstream version 0.0.1-1
 
- -- Holger Levsen <holger@debian.org>  Sun, 27 Dec 2020 17:26:06 +0100
+ -- sandra uwah <sandrauwah282@gmail.com>  Tue, 18 Oct 2022 18:51:00 +0000
+
+node-jsonify (0.0.0-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Repository, Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+  * Apply multi-arch hints.
+    + node-jsonify: Add Multi-Arch: foreign.
+  * Remove empty leading paragraph in Description.
+  * Bump debhelper from old 9 to 13.
+
+  [ Yadd ]
+  * Declare compliance with policy 4.6.1
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Update debian/watch to use npm registry
+  * Drop dependency to nodejs
+  * Use dh-sequence-nodejs auto install
+
+ -- Yadd <yadd@debian.org>  Sun, 04 Sep 2022 14:52:20 +0200
 
 node-jsonify (0.0.0-1) unstable; urgency=low
 
